@@ -1,15 +1,27 @@
 # Physics-Utility
 Python Physics Utility
 
+By ethan, paul, and max
+
+# How To Use
+
+1. Clone this repository
+2. In the directory, run `python -i physics.py`
+3. profit
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
-## [Unreleased]
+## [1.1.1] - 2020-10-06
 
-## [1.1.0] - 2019-02-19
+### Added
+
+- `pv()`to print all variables defined in interpreter
+
+## [1.1.0] - 2020-09-19
 
 ### Added
 
