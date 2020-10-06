@@ -28,7 +28,7 @@ asind = lambda x: d(asin(x))
 
 title = """\
 Physics Utility v1.2
-Made by ethan & max :)
+Made by ethan & max & paul :)
 
 REMEMBER to read the problem WORD by WORD
 also, UNITS UNITS UNITS
@@ -119,6 +119,17 @@ This is what your equation looks like
     print()
     print(f"x = {x1}")
     print(f"x = {x2}")
+    
+w = set()
+
+for name, value in globals().copy().items():
+
+    w.add(name)
+
+def pv():
+    for name, value in globals().copy().items():
+        if name not in w and value != w and value != 'w' and name != 'pv':
+            print(name, "=", value)
 
 
 # def oneD_solver(a=False, t=False, xi=0, xf=False, vi=0, vf=False):
